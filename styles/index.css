@@ -1,0 +1,68 @@
+body {
+    background-color: salmon;
+}
+
+#main {
+    background-color: yellow;
+    justify-content: center;
+    margin: 2rem auto;
+    padding-top: 2rem;
+    text-align: center;
+    border: 15px solid blue;
+    border-radius: 3rem;
+    max-width: 750px;
+    order: 0;
+}
+
+#title {
+    justify-content: center;
+    margin: auto;
+    background-color: lightpink;
+    min-height: 4rem;
+}
+
+#projects {
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    /* grid-gap: 10px; */
+}
+
+#projects-label {
+    background-color: lawngreen;
+    grid-column: span 3;
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+}
+
+#project-list {
+    background-color: lime;
+    text-align: left;
+    grid-column: 2 / 3;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 1rem;
+    
+}
+
+.spacer-sides {
+    background-color: aqua;
+}
+
+#spacer-bottom {
+    background-color: orange;
+    grid-column: 1 / span 3;
+    min-height: 100px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+h1, h2 {
+    padding: 50%, 0 ;
+}
